@@ -17,35 +17,20 @@ In this experiment, the task is to build a Convolutional Deep Neural Network (CN
 
 ## DESIGN STEPS
 
-TEP 1: Problem Statement
+STEP 1:
+Load Fashion-MNIST dataset from torchvision, apply transformations, and create DataLoaders for batch processing
 
-Define the objective of classifying handwritten digits (0-9) using a Convolutional Neural Network (CNN).
+STEP 2:
+Build CNN architecture with 3 convolutional layers (32,64,128 filters) and 3 fully connected layers (128,64,10 nodes)
 
-STEP 2:Dataset Collection
+STEP 3:
+Train model using CrossEntropyLoss and Adam optimizer while tracking training and validation loss metrics
 
-Use the MNIST dataset, which contains 60,000 training images and 10,000 test images of handwritten digits.
+STEP 4:
+Evaluate model performance using confusion matrix, classification report, and test on new handwritten images
 
-STEP 3: Data Preprocessing
-
-Convert images to tensors, normalize pixel values, and create DataLoaders for batch processing.
-
-STEP 4:Model Architecture
-
-Design a CNN with convolutional layers, activation functions, pooling layers, and fully connected layers.
-
-STEP 5:Model Training
-
-Train the model using a suitable loss function (CrossEntropyLoss) and optimizer (Adam) for multiple epochs.
-
-STEP 6:Model Evaluation
-
-Test the model on unseen data, compute accuracy, and analyze results using a confusion matrix and classification report.
-
-STEP 7: Model Deployment & Visualization
-
-Save the trained model, visualize predictions, and integrate it into an application if needed.
-
-
+STEP 5:
+Visualize results with loss plots and display predictions with actual vs predicted labels
 ## PROGRAM
 
 ### Name:SANTHABABU G
