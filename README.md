@@ -18,18 +18,23 @@ In this experiment, the task is to build a Convolutional Deep Neural Network (CN
 ## DESIGN STEPS
 
 STEP 1:
+
 Load Fashion-MNIST dataset from torchvision, apply transformations, and create DataLoaders for batch processing
 
 STEP 2:
+
 Build CNN architecture with 3 convolutional layers (32,64,128 filters) and 3 fully connected layers (128,64,10 nodes)
 
 STEP 3:
+
 Train model using CrossEntropyLoss and Adam optimizer while tracking training and validation loss metrics
 
 STEP 4:
+
 Evaluate model performance using confusion matrix, classification report, and test on new handwritten images
 
 STEP 5:
+
 Visualize results with loss plots and display predictions with actual vs predicted labels
 ## PROGRAM
 
